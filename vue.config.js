@@ -15,6 +15,7 @@ module.exports = {
     host: '0.0.0.0',
     port: process.env.PORT || 5020,
     disableHostCheck: true,
+    public: 'localhost:5021',
     // proxy: "http://localhost:3000",
     proxy: "http://123.57.204.48:3000",
   },
